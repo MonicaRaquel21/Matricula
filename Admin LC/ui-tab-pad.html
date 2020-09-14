@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>LC San Antonio</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/Liceo Cristiano.png">
+    <!-- Custom Stylesheet -->
+    <link href="./plugins/jquery-steps/css/jquery.steps.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header" >
+            <div class="brand-logo">
+                <a href="index.html">
+                    
+                   <img src="images/Liceo Cristiano.png" id="lc" alt="">
+                    <span class="brand-title">
+                      
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">    
+            <div class="header-content clearfix">
+                
+                <div class="nav-control">
+                    <div class="hamburger">
+                        
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                       
+                    </div>
+                </div>
+                <div class="header-left">
+                    <h1 id="title">LICEO CRISTIANO REV JUAN BUENO SAN ANTONIO</h1>
+
+
+                </div>
+                <div class="header-left">
+                    <div class="input-group icons">
+                        
+                       
+                        
+                    </div>
+                </div>
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons dropdown" >
+                            <div class="user-img c-pointer position-relative"   data-toggle="dropdown">
+                                <span class="activity active"></span>
+                                <img src="images/user/1.png"  alt="" >
+                            </div>
+                            <div class="drop-down dropdown-profile animated fadeIn dropdown-menu" >
+                                <div class="dropdown-content-body">
+                                    <ul id="ul-menu">
+                                        <li>
+                                            <a href="app-profile.html"><i class="icon-user"></i> <span>Perfil</span></a>
+                                        </li>
+                                        
+                                        
+                                        <hr class="my-2">
+                                        <li>
+                                            <a href="page-lock.html"><i class="icon-lock"></i> <span>Bloquear</span></a>
+                                        </li>
+                                        <li><a href="page-login.html"><i class="icon-key"></i> <span>Cerrar Sesion</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar" >           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu" style="background:#0798F2;">
+                  <!--  <b> <li class="nav-label" >LICEO CRISTIANO REV JUAN BUENO SAN ANTONIO</li></b>-->
+                   <BR>
+                    <HR>
+                   <li class="mega-menu mega-menu-sm">
+                    <a  href="javascript:void()" aria-expanded="false" href="./index.html">
+                        <i class="icon-home menu-icon"></i><span class="nav-text">Inicio</span>
+                    </a>
+
+
+                   </li>
+                    <li class="mega-menu mega-menu-sm" >
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-note alt menu-icon"></i><span class="nav-text">Mantenimiento</span>
+                        </a>
+                        <ul aria-expanded="false" >
+                            <li><a href="./ui-tab.html" style="color: white;" >Estudiantes</a></li>
+                            <li><a href="./ui-tab-pad.html"style="color: white;">Padres de Familia</a></li>
+                            <li><a href="./ui-tab-ma.html" style="color: white;">Maestros</a></li>
+                          
+                          
+                            
+                        </ul>
+                    </li>
+                  
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-user menu-icon"></i> <span class="nav-text">Usuarios</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./ui-tab-user.html" style="color: white;">Roles</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-notebook menu-icon"></i><span class="nav-text">Ayuda</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./app-profile.html" style="color: white;">Manual</a></li>
+                           
+                        </ul>
+                    </li>
+                    
+                    
+                    <li style="display: none;"> 
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false"></a>
+                            <i class="icon-graph menu-icon"></i> <span class="nav-text">Charts</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./chart-flot.html">Flot</a></li>
+                            <li><a href="./chart-morris.html">Morris</a></li>
+                            <li><a href="./chart-chartjs.html">Chartjs</a></li>
+                            <li><a href="./chart-chartist.html">Chartist</a></li>
+                            <li><a href="./chart-sparkline.html">Sparkline</a></li>
+                            <li><a href="./chart-peity.html">Peity</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-label"></li>
+                    <li class="li-error" style="display: none;">
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-grid menu-icon"></i><span class="nav-text">UI Components</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./ui-accordion.html">Accordion</a></li>
+                            <li><a href="./ui-alert.html">Alert</a></li>
+                            <li><a href="./ui-badge.html">Badge</a></li>
+                            <li><a href="./ui-button.html">Button</a></li>
+                            <li><a href="./ui-button-group.html">Button Group</a></li>
+                            <li><a href="./ui-cards.html">Cards</a></li>
+                            <li><a href="./ui-carousel.html">Carousel</a></li>
+                            <li><a href="./ui-dropdown.html">Dropdown</a></li>
+                            <li><a href="./ui-list-group.html">List Group</a></li>
+                            <li><a href="./ui-media-object.html">Media Object</a></li>
+                            <li><a href="./ui-modal.html">Modal</a></li>
+                            <li><a href="./ui-pagination.html">Pagination</a></li>
+                            <li><a href="./ui-popover.html">Popover</a></li>
+                            <li><a href="./ui-progressbar.html">Progressbar</a></li>
+                            <li><a href="./ui-tab.html">Tab</a></li>
+                            <li><a href="./ui-typography.html">Typography</a></li>
+                    
+                 
+               
+                    
+                     
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body ">
+
+           
+            <!-- row -->
+
+            <div class="container-fluid" >
+                <div class="row" >
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body" style=" height: 100rem;">
+                                <h4 class="card-title">Padres de Familia</h4>
+                                <!-- Nav tabs -->
+                                <div class="default-tab">
+                                    <ul class="nav nav-tabs mb-3" role="tablist">
+                                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#home">Registrar</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#profile">Buscar</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#contact">Boletas</a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="tab-content"   >
+            <div class="container-fluid tab-pane fade show active" id="home" role="tabpanel"  >
+                <div class="row"  >
+                    <div class="col-md-12" > 
+                        <form action="#" id="step-form-horizontal" class="step-form-horizontal">
+                            <div style=" height: 60rem;">
+                                <h4>Padres</h4>
+                                <section style="height: 70rem;  position: relative;">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" name="username" class="form-control" placeholder="Nombres" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" name="username" class="form-control" placeholder="Apellidos" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <p>Fecha de Nacimiento</p>
+                                                <input type="text" name="username" class="form-control" placeholder="dd/mm/aa" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-12">
+                                            <div class="form-group">
+                                                <p>Año en el que estudio el grado anterior</p>
+                                                <input type="text" name="username" class="form-control" placeholder="año" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            
+                                            <div class="card-body">
+                                               <p> Sexo</p>
+                                                <div class="basic-form">
+                                                    <form>
+                                                        <div class="form-group">
+                                                            <label class="radio-inline mr-3">
+                                                                <input type="radio" name="optradio"> Masculino</label>
+                                                            <label class="radio-inline mr-3">
+                                                                <input type="radio" name="optradio"> Femenino</label>
+                                                           
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                      
+                                    </div>
+                                        <div class="col-lg-6">
+                                            
+                                                <div class="card-body">
+                                                   <p> Estudio Parvularia?</p>
+                                                    <div class="basic-form">
+                                                        <form>
+                                                            <div class="form-group">
+                                                                <label class="radio-inline mr-3">
+                                                                    <input type="radio" name="optradio"> Si</label>
+                                                                <label class="radio-inline mr-3">
+                                                                    <input type="radio" name="optradio"> No</label>
+                                                     
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                          
+                                        </div>
+                                        <div class="col-lg-6">
+                                            
+                                            <div class="card-body">
+                                               <p> Estado Familiar del Estudiante</p>
+                                                <div class="basic-form">
+                                                    <form>
+                                                        <div class="form-group">
+                                                            <label class="radio-inline mr-3">
+                                                                <input type="radio" name="optradio"> Soltero/a</label>
+                                                            <label class="radio-inline mr-3">
+                                                                <input type="radio" name="optradio"> Casado/a</label>
+                                                                <label class="radio-inline mr-3">
+                                                                    <input type="radio" name="optradio"> Acompañado/a</label>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                      
+                                    </div>
+                                    <div class="col-lg-6">
+                                            
+                                        <div class="card-body">
+                                           <p> Tine Hijos</p>
+                                            <div class="basic-form">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label class="radio-inline mr-3">
+                                                            <input type="radio" name="optradio"> Si</label>
+                                                        <label class="radio-inline mr-3">
+                                                            <input type="radio" name="optradio"> No</label>
+                                                         
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                  
+                                </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                <p>Si seleciono "Si" Ingrese la cantidad de hijos</p>
+                                                <input type="email" name="email" class="form-control" placeholder="Cantidad de Hijos" >
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" name="username" class="form-control" placeholder="Apellidos" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="number" name="Password" class="form-control" placeholder="Telefono" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="email" name="Password" class="form-control" placeholder="Email" required>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </section>
+                               
+                                <h4>Information Medica</h4>
+                                <section>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" name="creditCard" placeholder="Credit Card Number">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" name="date" placeholder="Expiration Date">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" name="owner" placeholder="Credit Card Owner">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                              
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 tab-pane fade" id="profile">
+             
+                    <div class="card-body">
+                        <h4 class="card-title">Buscar Estudiante</h4>
+                        <div class="basic-form">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label>Nombre</label>
+                                        <input type="name" class="form-control" placeholder="Ingrese el Nombre">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label>Apellido</label>
+                                        <input type="name" class="form-control" placeholder="ingrese el Apellido">
+                                    </div>
+
+                                    <div class="form-group col-md-6" >
+                                        <label>ID</label>
+                                        <input type="text" class="form-control" placeholder="Ingrese el ID">
+                                    </div>
+
+                                </div>
+                              
+                                <button type="submit" class="btn mb-1 btn-info">Buscar <span class="btn-icon-right"><i class="fa fa-search"></i></span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                
+            </div>
+
+            </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+            <!-- #/ container -->
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a> 2018</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+
+
+    <script src="./plugins/jquery-steps/build/jquery.steps.min.js"></script>
+    <script src="./plugins/jquery-validation/jquery.validate.min.js"></script>
+    <script src="./js/plugins-init/jquery-steps-init.js"></script>
+    
+
+</body>
+
+</html>
