@@ -237,7 +237,7 @@
                 </div>
                 <div class="step" id="step-3">
                     <div class="step__header">
-                        <h2 class="step__title">Información Medica,Espiritual e Integral del Estudiante<small></small></h2>
+                        <h2 class="step__title">Información Medica del Estudiante<small></small></h2>
                     </div>
                     <div class="step__body">
                     <h3>Información Médica</h3> 
